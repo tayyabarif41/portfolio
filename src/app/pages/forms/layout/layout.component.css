@@ -1,0 +1,19 @@
+.conatiner{
+    width: 100%;
+}
+.col-sm-12{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.col-sm-3{
+    margin: 5px 0px;
+    margin-right: 2px ;
+}
+.col-sm-9{
+    margin: 5px 0px;
+    margin-left: 2px ;
+
+}
