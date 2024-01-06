@@ -9,7 +9,7 @@ seo:
 
 ---main
 images:
-  - src: /tayyab-arif.png
+  - src: /portfolio/public/tayyab-arif.png
     alt: my photo
   - src: /hero-mobile.jpg
     alt: my photo
