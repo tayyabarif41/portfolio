@@ -10,7 +10,7 @@ seo:
 ---personal_info
 name: Tayyab Arif
 images:
-  - src: /tayyab-arif.png
+  - src: /images/tayyab-arif.png
     alt: my image
 ---
 ##### <span>01.</span> About me
