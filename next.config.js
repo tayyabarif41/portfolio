@@ -3,6 +3,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
     unoptimized: true,
