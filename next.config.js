@@ -11,6 +11,7 @@ module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
     unoptimized: true,
+    path: '/portfolio'
   },
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'utils'],
