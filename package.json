@@ -53,7 +53,7 @@
     "remark-gfm": "^3.0.1",
     "remark-squeeze-paragraphs": "^5.0.1",
     "remark-unwrap-images": "^3.0.1",
-    "sharp": "^0.31.3",
+    "sharp": "^0.32.6",
     "sift": "^16.0.1"
   },
   "devDependencies": {
