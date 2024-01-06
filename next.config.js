@@ -2,9 +2,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+const isProduction = process.env.NODE_ENV === 'production';
+
+
 module.exports = withBundleAnalyzer({
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
+  basePath: isProduction ? '/portfolio/' : '',
+  assetPrefix: isProduction ? '/portfolio/' : '',
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
     unoptimized: true,
