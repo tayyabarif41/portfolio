@@ -9,9 +9,9 @@ seo:
 
 ---main
 images:
-  - src: /images/tayyab-arif.png
+  - src: /portfolio/images/tayyab-arif.png
     alt: my photo
-  - src:  /images/tayyab-arif.png
+  - src: /portfolio/images/tayyab-arif.png
     alt: my photo
 ---
 

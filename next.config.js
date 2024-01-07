@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = withBundleAnalyzer({
   basePath: isProduction ? '/portfolio' : '',
-  assetPrefix: isProduction ? '/portfolio' : '',
+  assetPrefix: isProduction ? '/portfolio/' : '',
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
     unoptimized: true,
