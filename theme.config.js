@@ -106,7 +106,7 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'RECIPIENT@EXAMPLE.com',
+    recipient: 'tayyab_arif41@yahoo.com',
     sender: 'SENDER@EXAMPLE.com',
     subject: 'EMAIL NOTIFICATION SUBJECT',
   },
@@ -132,12 +132,12 @@ export const mdxConfig = {
 
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Carl Hanson',
-  siteName: 'Carl Hanson',
-  defaultTitle: 'Carl Hanson Personal Site',
-  titleTemplate: 'Carl Hanson | %s',
+  authorName: 'Tayyab Arif',
+  siteName: 'Tayyab Arif',
+  defaultTitle: 'Tayyab Arif Personal Site',
+  titleTemplate: 'Tayyab Arif | %s',
   description: 'A short description goes here.',
-  email: 'hello@example.com',
+  email: 'tayyab_arif41@yahoo.com',
   locale: 'en_US',
   twitter: {
     handle: '@handle',
