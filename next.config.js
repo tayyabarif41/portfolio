@@ -18,7 +18,7 @@ module.exports = withBundleAnalyzer({
   },
   webpack(config) {
     config.module.rules.push({
-      test: /\.(png|jpe?g|gif|svg)$/i,
+      test: /\.svg$/,
       use: ['@svgr/webpack'],
     })
     return config
