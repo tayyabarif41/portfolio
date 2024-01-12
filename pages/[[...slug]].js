@@ -64,7 +64,7 @@ export async function getStaticPaths() {
       slug: page.slug,
     },
   }))
-
+  
   return { paths, fallback: true }
 }
 
@@ -77,7 +77,6 @@ export default function Page({ pagination, page = {} }) {
   const pageUrl = siteMetaData.siteUrl + router.asPath
 
   if (!DynamicLayout) return null
-
   return (
     <>
       <Seo {...meta} pageUrl={pageUrl} />

@@ -44,21 +44,21 @@ export const menu = [
     slug: '/about',
     Icon: SlUser,
   },
-  {
-    name: 'Services',
-    slug: '/services',
-    Icon: SlBriefcase,
-  },
-  {
-    name: 'Articles',
-    slug: '/blog',
-    Icon: TfiPencilAlt,
-  },
-  {
-    name: 'Projects',
-    slug: '/projects',
-    Icon: SlTrophy,
-  },
+  // {
+  //   name: 'Services',
+  //   slug: '/services',
+  //   Icon: SlBriefcase,
+  // },
+  // {
+  //   name: 'Articles',
+  //   slug: '/blog',
+  //   Icon: TfiPencilAlt,
+  // },
+  // {
+  //   name: 'Projects',
+  //   slug: '/projects',
+  //   Icon: SlTrophy,
+  // },
   {
     name: 'Contact',
     slug: '/contact',
@@ -73,17 +73,17 @@ export const menu = [
 export const social = [
   {
     name: 'Twitter',
-    url: 'https://www.twitter.com/',
+    url: 'https://twitter.com/tayyab_arif',
     Icon: IoLogoTwitter,
   },
   {
     name: 'Instagram',
-    url: 'https://www.instagram.com/',
+    url: 'https://www.instagram.com/ch_tabbi/',
     Icon: IoLogoInstagram,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/tayyab-arif-2b031a124/',
     Icon: IoLogoLinkedin,
   },
 ]
