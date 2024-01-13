@@ -10,14 +10,14 @@ const HeroPhoto = ({ main }) => (
   <>
     {main.images?.[0] && (
       <div className="with-back-plate hidden md:block">
-        {/* <Image
+        <Image
           src={main.images[0].src}
           width={main.images[0].width}
           height={main.images[0].height}
           alt={main.images[0].alt}
           animation="mask-left"
           priority
-        /> */}
+        />
       </div>
     )}
     {main.images?.[1] && (

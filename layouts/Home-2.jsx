@@ -5,13 +5,14 @@ import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import Reveal from '@/components/Reveal'
 import Companies from '@/components/Companies'
+const isProduction = process.env.NODE_ENV === 'production';
 
 const HeroPhoto = ({ main }) => (
   <>
     {main.images?.[0] && (
       <div className="hidden md:block">
         <Image
-          src={main.images[0].src}
+          src={!isProduction ? main.images[0].src : "/portfolio" + main.images[0].src}
           width={main.images[0].width}
           height={main.images[0].height}
           alt={main.images[0].alt}
