@@ -24,7 +24,7 @@ const HeroPhoto = ({ main }) => (
     {main.images?.[1] && (
       <div className="md:hidden">
         <Image
-          src={main.images[1].src}
+          src={!isProduction ? main.images[0].src : "/portfolio" + main.images[0].src}
           width={main.images[1].width}
           height={main.images[1].height}
           alt={main.images[1].alt}
