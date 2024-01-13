@@ -78,7 +78,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
                 src={!isProduction ? personal_info.images[0].src : "/portfolio" + personal_info.images[0].src}
                 alt={personal_info.images[0].alt}
                 animation="fade-in zoom-out"
-                className="md:object-none"
+                className="object-cover md:object-none"
                 priority
                 fill
               />
