@@ -73,37 +73,19 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
       <div className="prose prose-invert md:flex">
         <div className="relative flex h-screen basis-1/3 flex-col justify-between pb-24 md:h-auto md:items-center md:py-12">
           <div className="not-prose absolute top-0 left-0 h-full w-full bg-omega-900 grayscale">
-            {/* {personal_info.images?.[0] && (
+            {personal_info.images?.[0] && (
               <Image
                 src={!isProduction ? personal_info.images[0].src : "/portfolio" + personal_info.images[0].src}
                 alt={personal_info.images[0].alt}
                 animation="fade-in zoom-out"
-                className="object-none"
+                className="sm:object-none"
                 priority
                 fill
               />
-            )} */}
-            <div className="hidden md:block">
-              <Image
-                src={!isProduction ? main.images[0].src : "/portfolio" + main.images[0].src}
-                width={main.images[0].width}
-                height={main.images[0].height}
-                alt={main.images[0].alt}
-                animation="slide-in-top fade-in"
-                priority
-              />
-            </div>
+            )}
 
-            <div className="md:hidden">
-              <Image
-                src={!isProduction ? main.images[0].src : "/portfolio" + main.images[0].src}
-                width={main.images[1].width}
-                height={main.images[1].height}
-                alt={main.images[1].alt}
-                className="mx-auto"
-                priority
-              />
-            </div>
+
+
             <div className="absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
           </div>
           <div className="z-10 bg-black p-6 text-center">
