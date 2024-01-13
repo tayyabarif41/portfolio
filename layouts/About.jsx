@@ -5,7 +5,7 @@ import Typewriter from '@/components/Typewriter'
 import Reveal from '@/components/Reveal'
 import Image from '@/components/Image'
 import Icon from '@/components/Icon'
-
+const isProduction = process.env.NODE_ENV === 'production';
 const History = ({ title, list }) => (
   <>
     <h3>{title}</h3>
@@ -75,10 +75,10 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
           <div className="not-prose absolute top-0 left-0 h-full w-full bg-omega-900 grayscale">
             {personal_info.images?.[0] && (
               <Image
-                src={personal_info.images[0].src}
+                src={!isProduction ? personal_info.images[0].src : "/portfolio" + personal_info.images[0].src}
                 alt={personal_info.images[0].alt}
                 animation="fade-in zoom-out"
-                className="object-cover"
+                className="object-none"
                 priority
                 fill
               />
