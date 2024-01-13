@@ -8,4 +8,5 @@ module.exports = {
   amber,
   rose,
   cyan,
+  lime
 }

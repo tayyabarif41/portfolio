@@ -1,64 +1,63 @@
 ---
-layout: Home
+layout: Home-2
 seo:
   title: Web Developer
   description: Custom description for this page goes here
 ---
 
+
+
 ---main
 images:
-  - src: /hero.jpg
+  - src: /images/tayyab-arif.png
     alt: my photo
-  - src: /hero-mobile.jpg
+  - src: /images/tayyab-arif.png
     alt: my photo
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>Tayyab Arif</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# *Frontend Developer*
 
-<Sep size={12} />
+<h5>
+Your Vision, My Code: Unleashing Digital Innovation
+</h5>
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
+
+My name is Tayyab Arif, I'm a frontend developer based in <strong>Riyadh, Saudi Arabia</strong> originally from <b>Pakistan</b>.
+I have developed many applications ranging from private <b>FINTECH</b> applications to public <b>ECOMMERCE</b> applications.
+As a senior frontend developer, my commitment is evident in the creation of cutting-edge interfaces that seamlessly blend precision and aesthetics.
+I'm dedicated to delivering pixel-perfect designs and ensuring an intuitive user experience across every project.
+
+```js {2-5} showLineNumbers
+const services = [
+  'Frontend Development'
+  'Web Development'
+  'Mobile App Development'
+  'UI/UX Design'
+]
+if (have_a_project) navigate('/contact')
+```
 
 
 
 ---achievements
-- number: 6+
+- number: 5+
   text: Years of experience
-- number: 60+
+- number: 30+
   text: Projects Completed
-- number: 5
+- number: 2
   text: OpenSource Libraries
+- number: 10+
+  text: Clients World Wide
 ---
 
 
 
 ---cta
 ---
-<Button href="/contact" size="lg">
+<Button href="/contact" size="sm">
   Download Resume
 </Button>
 
-
-
----companies
-title: Trusted By
-list:
-  - name: Company 1
-    icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
----
+[Get in Touch](/contact)

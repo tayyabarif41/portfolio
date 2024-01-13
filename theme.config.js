@@ -17,9 +17,8 @@ import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 export const menu = [
   {
     name: 'Home',
-    slug: '/index-2',
+    slug: '/',
     Icon: TfiHome,
-    // number: 1,
   },
   // {
   //   name: 'Home (2)',
